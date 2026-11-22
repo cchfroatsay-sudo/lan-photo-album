@@ -31,3 +31,4 @@ func platformMemAvailable() uint64 {
 	}
 	return 0
 }
+
