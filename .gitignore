@@ -1,0 +1,24 @@
+# build output
+photosrv
+photosrv-*
+*.exe
+*.test
+*.out
+
+# runtime data
+photos/
+thumbs/
+.photosrv-index.json
+*.log
+
+# never commit private media or test assets
+*.jpg
+*.jpeg
+*.png
+*.heic
+*.mov
+*.mp4
+
+# secrets
+.env
+deploy-secrets.json
