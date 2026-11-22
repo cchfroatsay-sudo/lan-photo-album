@@ -139,3 +139,4 @@ func readIFD(tiff []byte, off int, order binary.ByteOrder) (map[uint16]uint32, i
 	next := int(order.Uint32(tiff[off+2+count*12 : off+6+count*12]))
 	return entries, next, true
 }
+
